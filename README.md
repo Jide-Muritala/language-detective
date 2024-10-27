@@ -23,9 +23,13 @@ To run the notebook, you need to install these packages using pip:
 ```bash
 pip install tensorflow numpy pandas scikit-learn wikipedia-api
 ```
-- classifier-transformers.ipynb
+- classifier-transformers-bert.ipynb
 ```bash
 pip install transformers torch scikit-learn accelerate pandas
+```
+- classifier-transformers-xlm.ipynb
+```bash
+pip install transformers torch scikit-learn
 ```
 Dataset
 ```bash
