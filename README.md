@@ -17,26 +17,28 @@ The notebook walks through the following steps:
 **Prediction**: Making predictions on new text data.
 
 ## Installation
-To run the notebook, you need to have the following packages installed:
- - TensorFlow
- - NumPy
- - Pandas
- - Scikit-learn
- - Wikipedia-API (optional, for additional data)
-
-You can install these packages using pip:
+To run the notebook, you need to install these packages using pip:
+classifier_language_recognition-tensor-flow.ipynb
 ```bash
 pip install tensorflow numpy pandas scikit-learn wikipedia-api
 ```
-
+classifier-transformers.ipynb
+```bash
+pip install transformers torch scikit-learn pandas numpy matplotlib
+```
+Dataset
+```bash
+wget https://downloads.tatoeba.org/exports/sentences.tar.bz2
+tar -xvjf sentences.tar.bz2
+```
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cizodevahm/Language-Classification-using-TensorFlow.git
+   git clone https://github.com/Jide-Muritala/language-detective-tensorflow.git
    ```
 2. Navigate to the repository directory:
    ```bash
-   cd Language-Classification-using-TensorFlow
+   cd language-detective-tensorflow
    ```
 3. Open the Jupyter Notebook:
    ```bash
@@ -54,5 +56,4 @@ predictions = model.predict(test_text)
 print(predictions.argmax())  # Output: 3 (Spanish)
 ```
 
-## License
-This project is licensed under the MIT License.
+
