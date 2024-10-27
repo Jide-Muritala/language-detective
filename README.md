@@ -1,5 +1,5 @@
 # Language Classification using TensorFlow
-This repository contains a Jupyter Notebook for classifying languages using TensorFlow. The notebook demonstrates the process of building a language classification model that can identify the language of a given text.
+This repository contains a Jupyter Notebook for classifying languages using TensorFlow and Transformers. The notebook demonstrates the process of building a language classification model that can identify the language of a given text.
 
 ## Description
 The notebook walks through the following steps:
@@ -18,13 +18,14 @@ The notebook walks through the following steps:
 
 ## Installation
 To run the notebook, you need to install these packages using pip:
-classifier_language_recognition-tensor-flow.ipynb
+
+- classifier_language_recognition-tensor-flow.ipynb
 ```bash
 pip install tensorflow numpy pandas scikit-learn wikipedia-api
 ```
-classifier-transformers.ipynb
+- classifier-transformers.ipynb
 ```bash
-pip install transformers torch scikit-learn pandas numpy matplotlib
+pip install transformers torch scikit-learn accelerate pandas
 ```
 Dataset
 ```bash
@@ -41,9 +42,7 @@ tar -xvjf sentences.tar.bz2
    cd language-detective-tensorflow
    ```
 3. Open the Jupyter Notebook:
-   ```bash
-   jupyter notebook classifier_language_recognition-tensor-flow.ipynb
-   ```
+ 
 4. Follow the steps in the notebook to train and evaluate the model.
 
 ## Example
