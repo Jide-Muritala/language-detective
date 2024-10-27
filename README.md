@@ -29,7 +29,7 @@ pip install transformers torch scikit-learn accelerate pandas
 ```
 - classifier-transformers-xlm.ipynb
 ```bash
-pip install transformers torch scikit-learn
+pip install transformers torch accelerate scikit-learn datasets sentencepiece pandas
 ```
 Dataset
 ```bash
