@@ -2,7 +2,10 @@
 
 The **Language Detective** provides several models to identify the language of a given text input. It includes FastText, TensorFlow, and Transformers-based classifiers. 
 
-​![pic](detective.jpg)
+<p align="center">
+  <img src="detective.jpg" alt="detective" />
+</p>
+
 
 ## Models
 
