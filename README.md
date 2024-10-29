@@ -35,7 +35,7 @@ cd language-detective
 
 3. Install dependencies for the notebook you want to run:
 
-- classifier-fasttext.ipynb
+- FastText
 ```bash
 pip install fasttext numpy
 ```
@@ -44,17 +44,17 @@ For the FastText classifier, you need to download lid.176.bin and place it in th
 wget https://dl.fbaipublicfiles.com/fasttext/supervised-languages/lid.176.bin
 ```
 
-- classifier-tensorflow.ipynb
+- TensorFlow
 ```bash
 pip install tensorflow numpy pandas scikit-learn wikipedia-api
 ```
 
-- classifier-transformers-bert.ipynb
+- Bert
 ```bash
 pip install transformers torch scikit-learn accelerate pandas
 ```
 
-- classifier-transformers-xlm.ipynb
+- XLM
 ```bash
 pip install transformers torch accelerate scikit-learn datasets sentencepiece pandas
 ```
